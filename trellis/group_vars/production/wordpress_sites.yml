@@ -3,11 +3,11 @@
 # Define accompanying passwords/secrets in group_vars/production/vault.yml
 
 wordpress_sites:
-  yashpuri.me:
+  installassists.com:
     site_hosts:
-      - canonical: yashpuri.me
+      - canonical: installassists.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:yashpalpuri/yashpuri.me.git # replace with your Git repo URL
+    repo: git@github.com:codeassists/installassists # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
     branch: master
     multisite:
